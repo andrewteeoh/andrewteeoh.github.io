@@ -1,0 +1,22 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 16px;
+  font-weight:bold;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header li {
+  margin-left: 32px;
+}
+
+.header li:first-child {
+  margin-left: 0;
+}
