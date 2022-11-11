@@ -1,18 +1,18 @@
 import React from "react";
-import * as s from './footer.module.css';
+import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <footer className={s.footer}>
-      <ul className={s.socialLinks}>
+    <footer className="footer">
+      <ul className="socialLinks">
         <li><a href="https://github.com/andrewteeoh"><FontAwesomeIcon icon={faGithubSquare} size="2x"></FontAwesomeIcon></a></li>
         <li><a href="https://www.linkedin.com/in/andrewmtio"><FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon></a></li>
         <li><a href="https://twitter.com/andrewteeoh"><FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon></a></li>
       </ul>
-      <img src="/pokeball.png" className={s.pokeball}></img>
-      <div className={s.madeWith}>
+      <img src="/pokeball.png" className="pokeball"></img>
+      <div className="madeWith">
         <span>Made with Gatsby</span>
         <img
           alt="Gatsby G Logo"

@@ -7,7 +7,7 @@
 }
 
 .container {
-  height:calc(100vh - 104px - 56px);
+  min-height:calc(100vh - 104px - 56px);
 }
 h1 {
   font-weight: bold;

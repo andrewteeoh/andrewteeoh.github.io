@@ -1,13 +1,13 @@
 import React from "react";
 import { Header, Footer } from "../components";
-import * as reset from "./reset.module.css";
-import * as s from "./mainLayout.module.css";
+import "./reset.css";
+import "./mainLayout.css";
 
 function MainLayout({ children }) {
   return (
-    <main className={s.main}>
+    <main className="main">
       <Header />
-      <div className={s.container}>
+      <div className="container">
         {children}
       </div>
       <Footer />

@@ -1,16 +1,21 @@
+import { Link } from "gatsby";
 import React from "react";
-import * as s from './header.module.css';
+import './header.css';
 
 function Header() {
   return (
-    <header className={s.header}>
+    <header className="header">
       <nav>
         <ul>
           <li>
+            <Link to="/">
             Home
+            </Link>
           </li>
           <li>
+            <Link to="/blog">
             Blog
+            </Link>
           </li>
           <li>
             About
